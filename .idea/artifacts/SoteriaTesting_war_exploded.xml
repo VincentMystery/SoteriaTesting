@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SoteriaTesting:war exploded">
+    <output-path>$PROJECT_DIR$/target/SoteriaTesting</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SoteriaTesting" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.glassfish.soteria:javax.security.enterprise:1.0" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/security/enterprise/javax.security.enterprise-api/1.1-b01-SNAPSHOT/javax.security.enterprise-api-1.1-b01-20170827.084736-2.jar" output-file-name="javax.security.enterprise-api-1.1-b01-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.omnifaces:omnifaces:2.6.4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/SoteriaTesting/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="SoteriaTesting/web/Web" />
+    </root>
+  </artifact>
+</component>
